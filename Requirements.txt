@@ -8,3 +8,4 @@ django-taggit==0.22.2
 djangorestframework==3.6.4
 simplejson==3.11.1
 ibm-watson>=4.0.2
+watson-developer-cloud==2.10.1
