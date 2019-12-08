@@ -8,6 +8,16 @@
             </div>
             <h1><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h1>
             <p>{{ post.text|linebreaksbr }}</p>
+            <span style="background-color:yellow">Watson Says:</span>
+
+            <p>Translation: {{ post.obj2}}</p>
+            <p>Word Count: {{ post.w_count}} |
+            Letter Count: {{ post.c_count}}</p>
+           <p> Tone Analyzer Results:  {{ post.tone3}}</p>
+
+            <br />
+        <p>Tone Name: {{ post.json_name1 }} | Score:  {{ post.json_score1 }}</p>
+
         </div>
     {% endfor %}
 {% endblock %}

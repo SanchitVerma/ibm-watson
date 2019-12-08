@@ -1,0 +1,10 @@
+dj-database-url==0.5.0
+Django==2.2.4
+gunicorn==19.9.0
+psycopg2==2.7.5
+pytz==2018.5
+whitenoise==4.0
+django-taggit==0.22.2
+djangorestframework==3.6.4
+simplejson==3.11.1
+ibm-watson>=4.0.2
